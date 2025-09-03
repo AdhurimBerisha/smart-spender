@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   title: "ExpenseTracker AI - Smart Financial Management",
   description:
     "AI-powered expense tracking app with intelligent insights, smart categorization, and personalized financial recommendations",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
