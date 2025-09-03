@@ -11,7 +11,6 @@ export default function ThemeToggle() {
     setMounted(true);
   }, []);
 
-  // Don't render anything until mounted to prevent hydration mismatch
   if (!mounted) {
     return (
       <div className="relative w-14 h-8 bg-gradient-to-r from-emerald-200/80 to-green-200/80 dark:from-emerald-900/80 dark:to-green-900/80 backdrop-blur-sm rounded-full shadow-lg border border-emerald-200/50 dark:border-emerald-700/50">
